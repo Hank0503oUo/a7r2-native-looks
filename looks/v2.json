@@ -1,0 +1,287 @@
+{
+ "name": "v2",
+ "camera": "ILCE-7RM2, firmware 4.01",
+ "unit": 1024,
+ "written": "2026-11-01",
+ "notes": "chroma_err_x1000 is the predicted RMS chromaticity error against the target LUT on the calibration chart (lower is better); factory_style is the unmodified style compared with the same target. Verification shots after writing are still pending.",
+ "calibration": {
+  "exposure": 1.3360810029791284,
+  "P": [
+   [
+    2.552179940843515,
+    -0.5672537976298236,
+    0.020861097729454936
+   ],
+   [
+    -0.4764526595984336,
+    2.7877530456705895,
+    -0.2940346142188117
+   ],
+   [
+    -0.01471891767708286,
+    -0.8572062697097984,
+    2.909048737976063
+   ]
+  ]
+ },
+ "slots": [
+  {
+   "slot": 12,
+   "menu": "中性 Neutral",
+   "look": "Fuji PROVIA",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1398,
+    -233,
+    -141,
+    55,
+    1134,
+    -165,
+    -113,
+    -4,
+    1141
+   ],
+   "chroma_err_x1000": {
+    "v2": 51.6,
+    "v2_linear_fit": 61.0,
+    "v1": 104.5,
+    "factory_style": 76.5
+   }
+  },
+  {
+   "slot": 1,
+   "menu": "鮮艷 Vivid",
+   "look": "Fuji Velvia",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1451,
+    -239,
+    -188,
+    -6,
+    1242,
+    -212,
+    -107,
+    -97,
+    1228
+   ],
+   "chroma_err_x1000": {
+    "v2": 53.5,
+    "v2_linear_fit": 75.2,
+    "v1": 119.3,
+    "factory_style": 87.1
+   }
+  },
+  {
+   "slot": 2,
+   "menu": "人像 Portrait",
+   "look": "Fuji ASTIA",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1403,
+    -162,
+    -217,
+    11,
+    1249,
+    -236,
+    -220,
+    -44,
+    1288
+   ],
+   "chroma_err_x1000": {
+    "v2": 52.2,
+    "v2_linear_fit": 68.3,
+    "v1": 101.5,
+    "factory_style": 89.1
+   }
+  },
+  {
+   "slot": 13,
+   "menu": "清晰 Clear",
+   "look": "Fuji REALA ACE",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1155,
+    6,
+    -137,
+    116,
+    1001,
+    -93,
+    -16,
+    73,
+    967
+   ],
+   "chroma_err_x1000": {
+    "v2": 61.6,
+    "v2_linear_fit": 82.0,
+    "v1": 114.5,
+    "factory_style": 103.5
+   }
+  },
+  {
+   "slot": 14,
+   "menu": "深色 Deep",
+   "look": "Fuji Classic Chrome",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1324,
+    -112,
+    -188,
+    55,
+    1080,
+    -111,
+    -35,
+    139,
+    920
+   ],
+   "chroma_err_x1000": {
+    "v2": 39.4,
+    "v2_linear_fit": 55.9,
+    "v1": 78.0,
+    "factory_style": 70.4
+   }
+  },
+  {
+   "slot": 4,
+   "menu": "日落 Sunset",
+   "look": "Fuji Classic Neg",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1138,
+    -138,
+    24,
+    66,
+    959,
+    -1,
+    -122,
+    365,
+    781
+   ],
+   "chroma_err_x1000": {
+    "v2": 56.0,
+    "v2_linear_fit": 68.9,
+    "v1": 102.6,
+    "factory_style": 129.0
+   }
+  },
+  {
+   "slot": 7,
+   "menu": "PP4 ITU709 Matrix",
+   "look": "Fuji ETERNA",
+   "source": "official FUJIFILM GFX ETERNA 55 LUT v1.00 (F-Log2 input); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1113,
+    13,
+    -102,
+    118,
+    958,
+    -52,
+    12,
+    136,
+    876
+   ],
+   "chroma_err_x1000": {
+    "v2": 24.4,
+    "v2_linear_fit": 42.9,
+    "v1": 69.7,
+    "factory_style": 76.1
+   }
+  },
+  {
+   "slot": 3,
+   "menu": "風景 Landscape",
+   "look": "Leica Classic",
+   "source": "official Leica L-Log LUT (Rec709 output); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1364,
+    -117,
+    -223,
+    65,
+    1050,
+    -91,
+    -17,
+    3,
+    1038
+   ],
+   "chroma_err_x1000": {
+    "v2": 62.1,
+    "v2_linear_fit": 94.5,
+    "v1": 99.7,
+    "factory_style": 89.5
+   }
+  },
+  {
+   "slot": 11,
+   "menu": "PP5/PP6 Cine",
+   "look": "Leica Natural",
+   "source": "official Leica L-Log LUT (Rec709 output); fitted to this camera from RAW+JPEG chart shots",
+   "matrix": [
+    1457,
+    -214,
+    -219,
+    50,
+    1292,
+    -318,
+    -12,
+    42,
+    994
+   ],
+   "chroma_err_x1000": {
+    "v2": 35.6,
+    "v2_linear_fit": 77.4,
+    "v1": 103.4,
+    "factory_style": 73.4
+   }
+  },
+  {
+   "slot": 15,
+   "menu": "淡色 Light",
+   "look": "Sony FL (Recipe Lab: Neutral sat-3 A1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix) (kept from v1)",
+   "matrix": [
+    905,
+    94,
+    50,
+    90,
+    1046,
+    -114,
+    96,
+    209,
+    693
+   ]
+  },
+  {
+   "slot": 6,
+   "menu": "PP1/PP3 Movie",
+   "look": "Sony IN (Recipe Lab: Neutral sat-3 M1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix) (kept from v1)",
+   "matrix": [
+    883,
+    91,
+    49,
+    89,
+    1025,
+    -111,
+    98,
+    215,
+    711
+   ]
+  },
+  {
+   "slot": 16,
+   "menu": "秋葉 Autumn",
+   "look": "Hasselblad HNCS (Recipe Lab: Neutral sat-1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix) (kept from v1)",
+   "matrix": [
+    1061,
+    -106,
+    68,
+    42,
+    1121,
+    -141,
+    52,
+    52,
+    920
+   ]
+  }
+ ]
+}

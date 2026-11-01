@@ -1,0 +1,213 @@
+{
+ "name": "v1",
+ "camera": "ILCE-7RM2, firmware 4.01",
+ "unit": 1024,
+ "written": "2026-10-25",
+ "notes": "Superseded by v2. Kept for reference: the Fuji matrices were not fitted to this camera and oversaturate.",
+ "slots": [
+  {
+   "slot": 12,
+   "menu": "中性 Neutral",
+   "look": "Fuji PROVIA",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    1700,
+    -628,
+    -48,
+    -110,
+    875,
+    259,
+    -33,
+    -240,
+    1297
+   ]
+  },
+  {
+   "slot": 1,
+   "menu": "鮮艷 Vivid",
+   "look": "Fuji Velvia",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    1798,
+    -754,
+    -20,
+    -65,
+    910,
+    179,
+    -107,
+    -438,
+    1569
+   ]
+  },
+  {
+   "slot": 2,
+   "menu": "人像 Portrait",
+   "look": "Fuji ASTIA",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    1570,
+    -262,
+    -284,
+    -190,
+    958,
+    256,
+    -65,
+    -240,
+    1329
+   ]
+  },
+  {
+   "slot": 13,
+   "menu": "清晰 Clear",
+   "look": "Fuji REALA ACE",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    740,
+    362,
+    -78,
+    59,
+    734,
+    231,
+    -18,
+    279,
+    763
+   ]
+  },
+  {
+   "slot": 14,
+   "menu": "深色 Deep",
+   "look": "Fuji Classic Chrome",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    1391,
+    -156,
+    -211,
+    40,
+    726,
+    258,
+    -43,
+    148,
+    919
+   ]
+  },
+  {
+   "slot": 4,
+   "menu": "日落 Sunset",
+   "look": "Fuji Classic Neg",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    1054,
+    -384,
+    354,
+    -62,
+    671,
+    415,
+    -313,
+    417,
+    920
+   ]
+  },
+  {
+   "slot": 7,
+   "menu": "PP4 ITU709 Matrix",
+   "look": "Fuji ETERNA",
+   "source": "Film Studio matrix fitted to FUJIFILM F-Log2 LUT (relative to WDR-709, not to this sensor)",
+   "matrix": [
+    1065,
+    19,
+    -60,
+    -38,
+    806,
+    256,
+    -202,
+    110,
+    1116
+   ]
+  },
+  {
+   "slot": 15,
+   "menu": "淡色 Light",
+   "look": "Sony FL (Recipe Lab: Neutral sat-3 A1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix)",
+   "matrix": [
+    905,
+    94,
+    50,
+    90,
+    1046,
+    -114,
+    96,
+    209,
+    693
+   ]
+  },
+  {
+   "slot": 6,
+   "menu": "PP1/PP3 Movie",
+   "look": "Sony IN (Recipe Lab: Neutral sat-3 M1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix)",
+   "matrix": [
+    883,
+    91,
+    49,
+    89,
+    1025,
+    -111,
+    98,
+    215,
+    711
+   ]
+  },
+  {
+   "slot": 3,
+   "menu": "風景 Landscape",
+   "look": "Leica Contemporary (Recipe Lab: Std sat+1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix)",
+   "matrix": [
+    1343,
+    -307,
+    -13,
+    -59,
+    1248,
+    -165,
+    27,
+    -133,
+    1130
+   ]
+  },
+  {
+   "slot": 11,
+   "menu": "PP5/PP6 Cine",
+   "look": "Leica Eternal (Recipe Lab: Neutral sat-3 A1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix)",
+   "matrix": [
+    905,
+    94,
+    50,
+    90,
+    1046,
+    -114,
+    96,
+    209,
+    693
+   ]
+  },
+  {
+   "slot": 16,
+   "menu": "秋葉 Autumn",
+   "look": "Hasselblad HNCS (Recipe Lab: Neutral sat-1)",
+   "source": "Recipe Lab community recipe converted to a matrix (saturation/WB shift on the factory Neutral or Standard matrix)",
+   "matrix": [
+    1061,
+    -106,
+    68,
+    42,
+    1121,
+    -141,
+    52,
+    52,
+    920
+   ]
+  }
+ ]
+}

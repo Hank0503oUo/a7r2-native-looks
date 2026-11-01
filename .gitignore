@@ -1,0 +1,16 @@
+# camera data, firmware and third-party files never belong in this repository
+*.bin
+*.img
+*.exe
+*.dat
+*.log
+*.status
+*.ARW
+*.arw
+*.JPG
+*.jpg
+*.cube
+*.CUB
+*.pkl
+cmds_*.txt
+__pycache__/

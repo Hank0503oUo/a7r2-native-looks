@@ -1,0 +1,19 @@
+{
+ "luts": {
+  "fuji": "FLog2_to_{}_33grid_V.1.00.cube  (FUJIFILM GFX ETERNA 55 3D LUT v1.00, 33-grid, F-Log2 input)",
+  "leica": "{}_Rec709.cube  (Leica L-Log LUTs, Rec709 output)"
+ },
+ "slots": [
+  {"slot": 12, "menu": "中性 Neutral", "look": "Fuji PROVIA", "lut": "fuji", "name": "PROVIA", "encoding": "flog2"},
+  {"slot": 1, "menu": "鮮艷 Vivid", "look": "Fuji Velvia", "lut": "fuji", "name": "Velvia", "encoding": "flog2"},
+  {"slot": 2, "menu": "人像 Portrait", "look": "Fuji ASTIA", "lut": "fuji", "name": "ASTIA", "encoding": "flog2"},
+  {"slot": 13, "menu": "清晰 Clear", "look": "Fuji REALA ACE", "lut": "fuji", "name": "REALA-ACE", "encoding": "flog2"},
+  {"slot": 14, "menu": "深色 Deep", "look": "Fuji Classic Chrome", "lut": "fuji", "name": "CLASSIC-CHROME", "encoding": "flog2"},
+  {"slot": 4, "menu": "日落 Sunset", "look": "Fuji Classic Neg", "lut": "fuji", "name": "CLASSIC-Neg.", "encoding": "flog2"},
+  {"slot": 7, "menu": "PP4 ITU709 Matrix", "look": "Fuji ETERNA", "lut": "fuji", "name": "ETERNA", "encoding": "flog2"},
+  {"slot": 3, "menu": "風景 Landscape", "look": "Leica Classic", "lut": "leica", "name": "Classic", "encoding": "llog"},
+  {"slot": 11, "menu": "PP5/PP6 Cine", "look": "Leica Natural", "lut": "leica", "name": "Natural", "encoding": "llog"}
+ ],
+ "keep_from": "../looks/v1.json",
+ "keep_slots": [15, 6, 16]
+}

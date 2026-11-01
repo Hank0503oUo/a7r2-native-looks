@@ -1,0 +1,21 @@
+# Chart shots used for looks v2 (A7R II, fw 4.01, 2026-11-01): RAW+JPEG, L size, distortion correction off, 1/13 s f/5.6 ISO 100.
+# The camera held looks v1 at the time, so build_model.py needs --table set to the v1 table.
+# file stem	slot	mode
+DSC06020	0	Standard
+DSC06021	1	Vivid
+DSC06022	12	Neutral
+DSC06023	13	Clear
+DSC06024	14	Deep
+DSC06025	15	Light
+DSC06026	2	Portrait
+DSC06027	3	Landscape
+DSC06028	4	Sunset
+DSC06029	0	Night
+DSC06030	16	Autumn
+DSC06033	6	PP1
+DSC06034	0	PP2
+DSC06035	6	PP3
+DSC06036	7	PP4
+DSC06037	11	PP5
+DSC06038	11	PP6
+DSC06039	10	PP7
